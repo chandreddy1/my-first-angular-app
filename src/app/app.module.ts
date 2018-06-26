@@ -1,11 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { WarningComponent } from './warning/warning.component';
+import { SuccessComponent } from './success/success.component';
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WarningComponent,
+    SuccessComponent
   ],
   imports: [
     BrowserModule
